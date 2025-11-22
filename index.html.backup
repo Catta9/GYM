@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM - It's Not Workout, It's Life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">GYM<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#where">Dove Siamo</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <div class="about-text">
+                    <h2 class="section-title">About <span class="highlight">Us</span></h2>
+                    <p class="scroll-reveal-text" id="revealText">
+                        Siamo più di una semplice palestra. Siamo una comunità dedicata al superamento dei limiti.
+                        Ogni goccia di sudore racconta una storia di determinazione.
+                        Qui, trasformiamo la fatica in forza e i sogni in realtà.
+                        Unisciti a noi per scoprire il tuo vero potenziale.
+                    </p>
+                </div>
+                <div class="about-stats-grid">
+                    <div class="stat-box">
+                        <span class="counter" data-target="1200">0</span>
+                        <p>Membri</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="counter" data-target="15">0</span>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="counter" data-target="50">0</span>
+                        <p>Corsi</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="counter" data-target="5">0</span>
+                        <p>Sedi</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- Why Us -->
+            <section id="why-us" class="section why-us">
+                <div class="container">
+                    <h2 class="section-title text-center">Why <span class="highlight">Us</span></h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+                                    <circle cx="30" cy="100" r="20" fill="#ff6600" />
+                                    <circle cx="170" cy="100" r="20" fill="#ff6600" />
+                                    <rect x="45" y="95" width="15" height="10" fill="#ff6600" />
+                                    <rect x="140" y="95" width="15" height="10" fill="#ff6600" />
+                                    <rect x="60" y="92" width="80" height="16" rx="2" fill="#ff6600" />
+                                    <circle cx="30" cy="100" r="15" fill="none" stroke="#ff6600" stroke-width="3" />
+                                    <circle cx="170" cy="100" r="15" fill="none" stroke="#ff6600" stroke-width="3" />
+                                </svg>
+                            </div>
+                            <h3>Attrezzature Top</h3>
+                            <p>Macchinari di ultima generazione per ogni gruppo muscolare.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h3>Trainer Qualificati</h3>
+                            <p>Professionisti pronti a guidarti passo dopo passo.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+                                    <circle cx="100" cy="40" r="18" fill="#ff6600" />
+                                    <ellipse cx="100" cy="85" rx="15" ry="25" fill="#ff6600" />
+                                    <path d="M 85 75 Q 70 80 65 95 Q 70 100 75 95 Q 80 85 85 85 Z" fill="#ff6600" />
+                                    <path d="M 115 75 Q 130 80 135 95 Q 130 100 125 95 Q 120 85 115 85 Z"
+                                        fill="#ff6600" />
+                                    <path d="M 90 105 Q 70 115 60 130 L 75 135 Q 85 125 95 120 Z" fill="#ff6600" />
+                                    <path d="M 110 105 Q 130 115 140 130 L 125 135 Q 115 125 105 120 Z"
+                                        fill="#ff6600" />
+                                    <circle cx="100" cy="95" r="8" fill="#ff6600" opacity="0.8" />
+                                </svg>
+                            </div>
+                            <h3>Corsi di tutti i tipi</h3>
+                            <p>Dallo Yoga al Crossfit, trova la tua passione.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team -->
+            <section id="team" class="section team">
+                <div class="container">
+                    <h2 class="section-title text-center">Il Nostro <span class="highlight">Team</span></h2>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="img-wrapper">
+                                <img src="assets/img/trainer1.jpg" alt="Trainer 1">
+                                <div class="member-info">
+                                    <h3>Marco Rossi</h3>
+                                    <p>Crossfit Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="img-wrapper">
+                                <img src="assets/img/trainer2.jpg" alt="Trainer 2">
+                                <div class="member-info">
+                                    <h3>Giulia Bianchi</h3>
+                                    <p>Yoga & Pilates</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="img-wrapper">
+                                <img src="assets/img/trainer3.jpg" alt="Trainer 3">
+                                <div class="member-info">
+                                    <h3>Luca Verdi</h3>
+                                    <p>Bodybuilding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery -->
+            <section id="gallery" class="section gallery">
+                <div class="container">
+                    <h2 class="section-title text-center">Gallery</h2>
+                    <div class="gallery-container">
+                        <!-- Video Row -->
+                        <div class="gallery-video">
+                            <video autoplay muted loop playsinline>
+                                <source src="assets/img/Video_Palestra_Bianco_e_Nero.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <!-- Images Row -->
+                        <div class="gallery-images">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery1.jpg" alt="Gallery 1">
+                            </div>
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery2.jpg" alt="Gallery 2">
+                            </div>
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery3.jpg" alt="Gallery 3">
+                            </div>
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery4.jpg" alt="Gallery 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Where We Are -->
+            <section id="where" class="section where">
+                <div class="container">
+                    <h2 class="section-title text-center">Dove <span class="highlight">Siamo</span></h2>
+                    <div class="where-content">
+                        <div class="map-wrapper">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90984.38333863983!2d11.26982245348238!3d44.49922469440791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd498e951c40b%3A0xa2e17c015ba9544f!2sBologna%20BO!5e0!3m2!1sit!2sit!4v1700000000000!5m2!1sit!2sit"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="location-details">
+                            <h3>Sede Centrale</h3>
+                            <p>Via Indipendenza, 100<br>40121 Bologna (BO)</p>
+                            <p><strong>Tel:</strong> +39 051 1234567</p>
+                            <p><strong>Email:</strong> info@gym.it</p>
+                            <div class="hours">
+                                <h4>Orari</h4>
+                                <p>Lun - Ven: 06:00 - 23:00</p>
+                                <p>Sab - Dom: 08:00 - 20:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQs -->
+            <section id="faq" class="section faq">
+                <div class="container">
+                    <h2 class="section-title text-center">FAQs</h2>
+                    <div class="faq-container">
+                        <div class="faq-item">
+                            <button class="faq-question">Posso fare una prova gratuita? <span
+                                    class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Assolutamente sì! Offriamo una giornata di prova gratuita per tutti i nuovi iscritti.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Avete personal trainer? <span
+                                    class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Sì, abbiamo un team di personal trainer certificati pronti a seguirti.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Quali sono i metodi di pagamento? <span
+                                    class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Accettiamo carte di credito, bancomat e bonifici bancari.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">È necessario prenotare i corsi? <span
+                                    class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Sì, consigliamo di prenotare tramite la nostra app per assicurarti il posto.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">C'è un parcheggio disponibile? <span
+                                    class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Sì, abbiamo un ampio parcheggio gratuito riservato ai clienti.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="section contact">
+                <div class="container">
+                    <h2 class="section-title text-center">Contattaci</h2>
+                    <div class="contact-wrapper">
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <input type="text" placeholder="Nome" required>
+                                <div class="container">
+                                    <div class="footer-main">
+                                        <div class="footer-brand">
+                                            <h2>GYM.</h2>
+                                            <p class="footer-tagline">IT'S NOT WORKOUT, IT'S LIFE.</p>
+                                        </div>
+                                        <div class="footer-nav">
+                                            <h3>Navigazione</h3>
+                                            <ul>
+                                                <li><a href="#hero">Home</a></li>
+                                                <li><a href="#about">About</a></li>
+                                                <li><a href="#why-us">Why Us</a></li>
+                                                <li><a href="#team">Team</a></li>
+                                                <li><a href="#gallery">Gallery</a></li>
+                                                <li><a href="#where">Dove Siamo</a></li>
+                                                <li><a href="#contact">Contatti</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-legal">
+                                            <h3>Legale</h3>
+                                            <ul>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">Termini e Condizioni</a></li>
+                                                <li><a href="#">Cookie Policy</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-social">
+                                            <h3>Seguici</h3>
+                                            <div class="social-links">
+                                                <a href="#" aria-label="Facebook">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                                        <path
+                                                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                                <a href="#" aria-label="Instagram">
+                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2">
+                                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+                                                        </path>
+                                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                                    </svg>
+                                                </a>
+                                                <a href="#" aria-label="YouTube">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                                        <path
+                                                            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33zM9.75 15.02l5.75-3.27-5.75-3.27z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-bottom">
+                                        <p>&copy; 2025 GYM. All rights reserved.</p>
+                                    </div>
+                                </div>
+                                </footer>
+
+                                <!-- Back to Top -->
+                                <a href="#" class="back-to-top" id="backToTop">↑</a>
+
+                                <script src="script.js"></script>
+</body>
+
+</html>
